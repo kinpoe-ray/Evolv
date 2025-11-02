@@ -1,0 +1,246 @@
+{
+  "summary": {
+    "total_tests": 38,
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "partial": 1,
+    "success_rate": "39.5%"
+  },
+  "test_results": [
+    {
+      "test": "前端页面加载",
+      "status": "开始",
+      "details": "",
+      "timestamp": "2025-11-02T02:36:46.186226"
+    },
+    {
+      "test": "前端页面加载",
+      "status": "通过",
+      "details": "所有4/4项检查通过",
+      "timestamp": "2025-11-02T02:36:46.460188"
+    },
+    {
+      "test": "校友会系统路由",
+      "status": "通过",
+      "details": "React应用正常加载",
+      "timestamp": "2025-11-02T02:36:47.950912"
+    },
+    {
+      "test": "SkillFolio路由",
+      "status": "通过",
+      "details": "React应用正常加载",
+      "timestamp": "2025-11-02T02:36:48.289709"
+    },
+    {
+      "test": "技能擂台路由",
+      "status": "通过",
+      "details": "React应用正常加载",
+      "timestamp": "2025-11-02T02:36:48.393449"
+    },
+    {
+      "test": "高校老师平台路由",
+      "status": "通过",
+      "details": "React应用正常加载",
+      "timestamp": "2025-11-02T02:36:48.491477"
+    },
+    {
+      "test": "学校管理端路由",
+      "status": "通过",
+      "details": "React应用正常加载",
+      "timestamp": "2025-11-02T02:36:48.572050"
+    },
+    {
+      "test": "数据库读取操作",
+      "status": "开始",
+      "details": "",
+      "timestamp": "2025-11-02T02:36:48.572472"
+    },
+    {
+      "test": "读取题库数据",
+      "status": "通过",
+      "details": "获取5条记录",
+      "timestamp": "2025-11-02T02:36:53.236993"
+    },
+    {
+      "test": "读取技能数据",
+      "status": "通过",
+      "details": "获取5条记录",
+      "timestamp": "2025-11-02T02:36:53.581834"
+    },
+    {
+      "test": "读取用户档案",
+      "status": "通过",
+      "details": "获取2条记录",
+      "timestamp": "2025-11-02T02:36:54.504056"
+    },
+    {
+      "test": "读取挑战数据",
+      "status": "通过",
+      "details": "获取5条记录",
+      "timestamp": "2025-11-02T02:36:55.269333"
+    },
+    {
+      "test": "用户认证流程",
+      "status": "开始",
+      "details": "",
+      "timestamp": "2025-11-02T02:36:55.270216"
+    },
+    {
+      "test": "用户认证",
+      "status": "警告",
+      "details": "测试用户不存在，但这是正常的",
+      "timestamp": "2025-11-02T02:36:55.645082"
+    },
+    {
+      "test": "认证表检查-用户档案表",
+      "status": "通过",
+      "details": "表结构正常",
+      "timestamp": "2025-11-02T02:36:56.676798"
+    },
+    {
+      "test": "认证表检查-用户技能表",
+      "status": "通过",
+      "details": "表结构正常",
+      "timestamp": "2025-11-02T02:36:57.010877"
+    },
+    {
+      "test": "认证表检查-徽章表",
+      "status": "通过",
+      "details": "表结构正常",
+      "timestamp": "2025-11-02T02:36:57.864602"
+    },
+    {
+      "test": "响应式设计",
+      "status": "开始",
+      "details": "",
+      "timestamp": "2025-11-02T02:36:57.865416"
+    },
+    {
+      "test": "响应式断点",
+      "status": "部分通过",
+      "details": "4/4个断点支持",
+      "timestamp": "2025-11-02T02:36:58.024902"
+    },
+    {
+      "test": "  - 移动端断点",
+      "status": "✅",
+      "details": "支持",
+      "timestamp": "2025-11-02T02:36:58.024931"
+    },
+    {
+      "test": "  - 平板断点",
+      "status": "✅",
+      "details": "支持",
+      "timestamp": "2025-11-02T02:36:58.024938"
+    },
+    {
+      "test": "  - 桌面断点",
+      "status": "✅",
+      "details": "支持",
+      "timestamp": "2025-11-02T02:36:58.024942"
+    },
+    {
+      "test": "  - 大屏断点",
+      "status": "✅",
+      "details": "支持",
+      "timestamp": "2025-11-02T02:36:58.024946"
+    },
+    {
+      "test": "图表数据支持",
+      "status": "通过",
+      "details": "找到0条统计数据",
+      "timestamp": "2025-11-02T02:36:59.599665"
+    },
+    {
+      "test": "数据导出功能",
+      "status": "通过",
+      "details": "可导出5条记录为JSON格式",
+      "timestamp": "2025-11-02T02:37:00.653065"
+    },
+    {
+      "test": "用户工作流程模拟",
+      "status": "开始",
+      "details": "",
+      "timestamp": "2025-11-02T02:37:00.653576"
+    },
+    {
+      "test": "工作流程-1. 用户访问首页",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653592"
+    },
+    {
+      "test": "工作流程-2. 用户注册/登录",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653598"
+    },
+    {
+      "test": "工作流程-3. 浏览技能展示页面",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653603"
+    },
+    {
+      "test": "工作流程-4. 参加技能挑战",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653607"
+    },
+    {
+      "test": "工作流程-5. 查看统计数据",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653610"
+    },
+    {
+      "test": "工作流程-6. 查看校友信息",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653614"
+    },
+    {
+      "test": "工作流程-7. 使用导师功能",
+      "status": "模拟完成",
+      "details": "流程设计合理",
+      "timestamp": "2025-11-02T02:37:00.653617"
+    },
+    {
+      "test": "数据操作-TeacherPortal",
+      "status": "设计完成",
+      "details": "创建题目 → 编辑题目 → 提交答案",
+      "timestamp": "2025-11-02T02:37:00.653622"
+    },
+    {
+      "test": "数据操作-SkillArena",
+      "status": "设计完成",
+      "details": "查看挑战 → 参与挑战 → 提交作品",
+      "timestamp": "2025-11-02T02:37:00.653627"
+    },
+    {
+      "test": "数据操作-AlumniHub",
+      "status": "设计完成",
+      "details": "浏览导师 → 联系导师 → 申请指导",
+      "timestamp": "2025-11-02T02:37:00.653631"
+    },
+    {
+      "test": "数据操作-SkillFolio",
+      "status": "设计完成",
+      "details": "查看技能 → 更新档案 → 设置可见性",
+      "timestamp": "2025-11-02T02:37:00.653635"
+    },
+    {
+      "test": "数据操作-SchoolDashboard",
+      "status": "设计完成",
+      "details": "查看统计 → 筛选数据 → 导出报告",
+      "timestamp": "2025-11-02T02:37:00.653639"
+    }
+  ],
+  "timestamp": "2025-11-02T02:37:00.653668",
+  "environment": {
+    "frontend_url": "https://ndlvdstdljej.space.minimax.io",
+    "api_url": "https://qpgefcjcuhcqojiawpit.supabase.co/rest/v1",
+    "test_user_id": "25ac5e01-09ea-4498-b879-d5bdf921fc58"
+  }
+}

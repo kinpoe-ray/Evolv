@@ -1,0 +1,7 @@
+-- Migration: update_question_types
+-- Created at: 1762007670
+
+-- 更新题目类型约束以支持更多题型
+ALTER TABLE questions DROP CONSTRAINT IF EXISTS questions_question_type_check;
+ALTER TABLE questions ADD CONSTRAINT questions_question_type_check 
+CHECK (question_type IN ('single_choice', 'multiple_choice', 'fill_blank', 'code'));;
